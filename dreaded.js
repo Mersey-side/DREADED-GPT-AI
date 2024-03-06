@@ -81,11 +81,11 @@ const antibot = process.env.ANTIBOT || 'TRUE';
     const mime = (quoted.msg || quoted).mimetype || "";
             const qmsg = (quoted.msg || quoted);
     const author = process.env.STICKER_AUTHOR || 'fortunatus';
-const maindev = '254114018035';
+const maindev = '254102028964';
 const maindev2 = maindev.split(",");
 
     const packname = process.env.STICKER_PACKNAME || 'dreaded';
-const dev = process.env.DEV || '254114018035'
+const dev = process.env.DEV || '254102028964'
 
 const menu = process.env.MENU_TYPE || 'VIDEO';
  const DevDreaded = dev.split(",");
@@ -482,7 +482,7 @@ let cap = `╭════〘 𝗗𝗥𝗘𝗔𝗗𝗘𝗗 〙═⊷❍
          
          
          𝙂𝙍𝙊𝙐𝙋  
-         • 𝐑𝐞𝐦𝐨𝐯𝐞
+         • kick
          • 𝐃𝐞𝐦𝐨𝐭𝐞
          • 𝐎𝐩𝐞𝐧
          • 𝐅𝐨𝐫𝐞𝐢𝐠𝐧𝐞𝐫𝐬
@@ -735,7 +735,7 @@ const rel = await quote(xf, pushname, pppuser)
                 
                 client.sendImageAsSticker(m.chat, rel.result, m, {
                     packname: pushname,
-                    author: `DreadedBot`
+                    author: `Merseyside`
                 })
 
 } catch (errr) { 
